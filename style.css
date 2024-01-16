@@ -1,0 +1,429 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+h3 {
+    color: #3c184e;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.container {
+    width: 100%;
+    padding: 120px 80px;
+    text-align: center;
+}
+
+.bnt-seta {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #27ae60;
+    bottom: 35px;
+    right: 30px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 22px;
+    color: #fff;
+    line-height: 48px;
+}
+
+.menu {
+    background-color: #794792;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 30;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 20px auto 20px 20px;
+}
+
+.logo img {
+    margin-right: 8px;
+    width: 30px;
+}
+
+.paragrafo-logo {
+    font-size: 25px;
+    color: #330749;
+    font-weight: bold;
+}
+
+.paragrafo-menu {
+    font-size: 15px;
+    color: #14031c;
+}
+
+.produtos {
+    height: 50px;
+    margin: auto 40px auto;
+}
+
+.listas {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    padding: 0;
+}
+
+.link-lista {
+    padding: 15px;
+    font-size: 16px;
+    color: #330749;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.banner-topo {
+    background-image: url("img/banner-topo.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.container-titulo {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0;
+    background: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+
+.titulo-topo {
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 600;
+    margin: 0 0 40px 0;
+}
+
+.fale-conosco {
+    width: 200px;
+    padding: 10px 25px 10px 25px;
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+    background-color: #3c184e;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fale-conosco a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fale-conosco img {
+    width: 20px;
+}
+
+.secao-titulo {
+    margin: 90px auto 26px auto;
+    text-align: center;
+    color: #3c184e;
+}
+
+.secao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+}
+
+.titulo {
+    margin-top: 110px;
+}
+
+.secao img {
+    width: 180px;
+    height: 180px;
+    border-radius: 10%;
+    padding: 20px;
+}
+
+.secao p {
+    font-size: 22px;
+}
+
+.banner-gato {
+    background-image: url("img/banner-animais.png");
+    background-position: center;
+    background-size: cover;
+    max-height: 100%;
+    height: 500px;
+    margin-top: 120px;
+}
+
+.planos-precos {
+    text-align: center;
+}
+
+.planos-precos h2 {
+    color: #3c184e;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+.planos-precos p {
+    font-size: 20px;
+}
+
+.container-planos {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 90%;
+    margin: 20px auto 40px auto;
+}
+
+.planos {
+    max-width: 100%;
+    margin: 0 30px;
+    width: 240px;
+    height: 500px;
+}
+
+.planos li {
+    padding: 15px 5px 5px 5px;
+    list-style: none;
+    height: 80px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.planos .preco {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #854ca1;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+}
+
+.planos .nome-plano {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #3b0e51;
+    padding: 70px 0 50px 0;
+}
+
+.planos .contratar {
+    background-color: #3b0e51;
+    color: #fff;
+    font-size: 24px;
+    height: 55px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.container-marcas {
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+.container-marcas img {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px 0 15px;
+}
+
+.faixa {
+    margin-bottom: 140px;
+    text-align: center;
+    background-color: #3c184e;
+    padding: 70px 80px;
+}
+
+.texto-faixa {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.redes-sociais img {
+    width: 50px;
+    height: 50px;
+}
+
+.destaque {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.container-loja {
+    height: 500px;
+    width: 100%;
+}
+
+.loja-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.loja-item {
+    background-color: #fcfafa;
+    border: 2px solid #e4dfdf;
+    border-radius: 6px;
+    height: 400px;
+    width: 202px;
+    margin: 5px 10px;
+}
+
+
+.loja-imagens {
+    height: 180px;
+}
+
+.loja-infos h2 {
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    color: #817e7e;
+    margin: 10px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.loja-infos p {
+    height: 70px;
+    text-align: center;
+    margin: 15px 5px 5px 5px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+.loja-valor {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.loja-buy {
+    background-color: #27ae60;
+    margin: 25px auto;
+    border-radius: 7px;
+    height: 35px;
+    width: 180px;
+    text-align: center;
+}
+
+.loja-buy:hover {
+    border: 2px solid #27ae60;
+    background-color: #fff;
+    margin: 25px auto;
+}
+
+.loja-comprar {
+    font-size: 16px;
+    position: relative;
+    top: 8px;
+    color: black;
+}
+
+.loja-img {
+    height: 100%;
+    width: 100%;
+}
+
+.fa-basket-shopping {
+    display: flex;
+    position: absolute;
+    left: 85px;
+    bottom: 1px;
+    font-size: 18px;
+}
+
+.onde-estamos h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.onde-estamos p {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.rodape {
+    background-color: #794792;
+    height: 150px;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape-lista {
+    margin: 5px auto;
+    max-width: 100%;
+    padding: 5px 20px;
+    width: 300px;
+}
+
+.rodape-lista ul {
+    list-style: none;
+}
+
+.rodape-lista ul p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #330749;
+    font-weight: bold;
+}
+
+.rodape-lista ul li {
+    font-size: 14px;
+    line-height: 27px;
+    color: #14031c;
+}
